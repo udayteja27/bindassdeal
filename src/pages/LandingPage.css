@@ -1,0 +1,106 @@
+/* LandingPage.css 
+.landing-page {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.landing-page h2 {
+  margin-bottom: 20px;
+}
+
+.landing-page p {
+  font-size: 18px;
+  line-height: 1.5;
+}*/
+
+/* General styling for the Landing Page */
+.landing-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for the AddItem and EditItem forms */
+.form-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 10px 0 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  opacity: 0.8;
+}
+
+/* Styling for the ItemList table */
+.table-container {
+  overflow-x: auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons inside the table */
+.table-container button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.table-container .edit-button {
+  background-color: #ffa500;
+  color: white;
+}
+
+.table-container .delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.table-container .edit-button:hover,
+.table-container .delete-button:hover {
+  opacity: 0.8;
+}
