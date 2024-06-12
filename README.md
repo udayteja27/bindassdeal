@@ -1,3 +1,6 @@
+# BindassDeal_Assignment
+This project is a simple React application that demonstrates basic CRUD operations (Create, Read, Update, Delete) using functional and class components. It includes forms for adding and editing items, and a table for displaying a list of items.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
